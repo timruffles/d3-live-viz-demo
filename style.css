@@ -1,0 +1,23 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+.present {
+  -webkit-transition: all 0.5s;
+  fill: yellow;
+}
+.present.up {
+  fill: hsl(86,100%,50%);
+}
+.present.down {
+  fill: hsl(31,100%,50%);
+}
+.past {
+  fill: hsl(31,100%,80%);
+}
+#title {
+  position: absolute;
+  bottom: -5%;
+  color: hsla(0,0%,0%,0.5);
+  font-size: 4em;
+  pointer-events: none;
+}
